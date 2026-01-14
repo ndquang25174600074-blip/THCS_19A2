@@ -1,7 +1,3 @@
-# Bài 5: Một chương trình tính toán tổng quát (nhận biểu thức toán học đơn giản)
-# Hỗ trợ các phép toán: +, -, *, /, **, ^ (thay cho **), và ngoặc.
-# LƯU Ý: chương trình dùng eval trong phạm vi hạn chế; chỉ cho phép các ký tự an toàn.
-import ast
 
 ALLOWED_NODES = {
     'Expression','BinOp','UnaryOp','Num','Constant','Add','Sub','Mult','Div','Pow',
